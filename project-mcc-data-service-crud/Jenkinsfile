@@ -1,6 +1,6 @@
 node {
     stage ("Checkout DataService"){
-        git branch: 'main', url: 'https://github.com/morgan-morris-bah/iron-maven/tree/main/project-mcc-data-service-crud'
+        git branch: 'main', url: 'https://github.com/morgan-morris-bah/iron-maven.git'
     }
     
     stage ("Gradle Build - DataService") {
